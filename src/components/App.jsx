@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-// import PropTypes from 'prop-types';
 
 import { onWindowScroll } from 'helpers/smoothScrollBy';
 import * as pixabayAPI from '../services/pixabay-api';
@@ -16,8 +15,6 @@ import { GlobalStyle } from './GlobalStyle';
 import { Layout } from 'components/Layout';
 
 export class App extends Component {
-  // static propTypes = {};
-
   state = {
     query: '',
     items: [],
